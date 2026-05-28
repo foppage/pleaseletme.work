@@ -52,7 +52,7 @@
 	.sidebar {
 		width: 480px;
 		min-width: 480px;
-		padding: 20px 24px;
+		padding: 20px 24px 12px;
 		background: #1e1e1e;
 		overflow-y: auto;
 		scrollbar-width: thin;
