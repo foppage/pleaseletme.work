@@ -257,15 +257,11 @@
 
 	h2 {
 		color: #f472b6;
-		font-size: 17px;
+		font-size: 18px;
 		font-weight: 600;
 		margin-bottom: 12px;
 		border-bottom: 1.5px solid #f472b6;
 		padding-bottom: 5px;
-	}
-
-	.content h2 {
-		font-size: 18px;
 	}
 
 	h3 {
