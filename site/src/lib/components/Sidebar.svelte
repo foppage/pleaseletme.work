@@ -50,8 +50,8 @@
 
 <style>
 	.sidebar {
-		width: 480px;
-		min-width: 480px;
+		width: clamp(320px, 45%, 480px);
+		min-width: 0;
 		padding: 20px 24px 12px;
 		background: #1e1e1e;
 		overflow-y: auto;
@@ -143,5 +143,40 @@
 		position: absolute;
 		left: 3px;
 		color: #666;
+	}
+
+	@media (max-width: 768px) {
+		.sidebar {
+			width: 100%;
+			min-width: 0;
+			padding: 16px;
+			overflow: visible;
+		}
+
+		.sidebar::-webkit-scrollbar {
+			display: none;
+		}
+
+		section {
+			margin-bottom: 16px;
+		}
+
+		h2 {
+			font-size: 16px;
+		}
+
+		h3 {
+			font-size: 15px;
+		}
+
+		.meta {
+			font-size: 13px;
+		}
+
+		.sub,
+		.label,
+		li {
+			font-size: 14px;
+		}
 	}
 </style>

@@ -41,4 +41,11 @@
 	:global(a:hover) {
 		text-decoration: underline;
 	}
+
+	@media (max-width: 768px) {
+		:global(body) {
+			height: auto;
+			overflow: auto;
+		}
+	}
 </style>

@@ -10,8 +10,8 @@
 	<div class="name-row">
 		<h1>{data.name}</h1>
 		<div class="contact">
-		{#each data.contact as item (item.href)}
-			<a href={item.href} class="contact-item">
+			{#each data.contact as item (item.href)}
+				<a href={item.href} class="contact-item">
 					<img src={item.icon === 'email' ? emailSvg : githubSvg} alt="" width="18" height="18" />
 					{item.label}
 				</a>
@@ -67,5 +67,39 @@
 		line-height: 1.5;
 		color: #b0b0b0;
 		max-width: 900px;
+	}
+
+	@media (max-width: 768px) {
+		.top-header {
+			padding: 16px;
+		}
+
+		.name-row {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 8px;
+		}
+
+		h1 {
+			font-size: 28px;
+		}
+
+		.contact {
+			gap: 12px;
+		}
+
+		.contact-item {
+			font-size: 13px;
+		}
+
+		.contact-item img {
+			width: 16px;
+			height: 16px;
+		}
+
+		.summary {
+			font-size: 13px;
+			max-width: none;
+		}
 	}
 </style>

@@ -87,4 +87,37 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 12px;
 	}
+
+	@media (max-width: 768px) {
+		.layout {
+			height: auto;
+			min-height: 100vh;
+		}
+
+		.columns {
+			flex-direction: column;
+		}
+
+		.content {
+			overflow: visible;
+			padding: 16px;
+		}
+
+		.content::-webkit-scrollbar {
+			display: none;
+		}
+
+		section {
+			margin-bottom: 16px;
+		}
+
+		h2 {
+			font-size: 16px;
+		}
+
+		.project-grid {
+			grid-template-columns: 1fr;
+			gap: 10px;
+		}
+	}
 </style>
