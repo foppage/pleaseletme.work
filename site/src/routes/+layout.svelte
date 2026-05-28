@@ -29,7 +29,8 @@
 		font-family: 'Inter', sans-serif;
 		font-size: 16px;
 		line-height: 1.5;
-		min-height: 100vh;
+		height: 100vh;
+		overflow: hidden;
 	}
 
 	:global(a) {
