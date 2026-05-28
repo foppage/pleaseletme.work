@@ -83,8 +83,10 @@ export const cv = {
 			date: 'May 2024 \u2013 Current',
 			bullets: [
 				'Led a small team to create and run online events with 800+ unique participants',
-				'Designed bespoke matchmaking algorithms',
-				'Monorepo with GitHub Actions CI/CD and Terraform hosting'
+				'Designed bespoke algorithms for the purposes of matchmaking participants',
+				'Migrated from multi-repo to monorepo structure',
+				'Created complex GitHub Actions CI/CD pipelines to automatically build multi-platform Docker images',
+				'Hosted project using Terraform'
 			],
 			tech: [
 				{ slug: 'typescript', label: 'TypeScript' },
@@ -98,9 +100,11 @@ export const cv = {
 			url: 'https://github.com/foppage/goto',
 			icon: 'github' as const,
 			bullets: [
-				'Go HTTP server with Gin, SQLite database and SQL migrations',
-				'SPA frontend with Vite + React, multi-stage Docker build',
-				'CI/CD pipeline building and deploying with Docker Compose'
+				'Go HTTP server backend using the Gin web framework',
+				'SQLite database, migrations and queries written in SQL',
+				'Built SPA frontend built using Vite + React',
+				'Created a Dockerfile with a multi-stage build process',
+				'Implemented CI/CD pipeline to build and deploy application using Docker Compose'
 			],
 			tech: [
 				{ slug: 'typescript', label: 'TypeScript' },
@@ -116,9 +120,11 @@ export const cv = {
 			url: 'https://github.com/foppage/services',
 			icon: 'github' as const,
 			bullets: [
-				'Home server running Proxmox for multiple users',
-				'Terraform for infrastructure, Docker services via Cloudflare',
-				'CI/CD pipeline to apply Terraform config on closed PRs'
+				'Provisioned home server running Proxmox for multiple users',
+				'Used Infrastructure as Code tooling (Terraform) to declaratively define infrastructure configuration',
+				'Installed services using Docker containers, served through Cloudflare Tunnels',
+				'Developed CI/CD pipeline to apply Terraform configuration on closed pull requests',
+				'Configured VPS running Ubuntu Server to host various services'
 			],
 			tech: [
 				{ slug: 'proxmox', label: 'Proxmox' },
@@ -133,9 +139,9 @@ export const cv = {
 			url: 'https://github.com/foppage/macro',
 			icon: 'github' as const,
 			bullets: [
-				'Frequent client interaction to ensure delivery',
-				'WebSockets to interface with external software',
-				'Reactive frontend with TypeScript and Svelte'
+				'Frequent interaction with client to ensure delivery of application',
+				'Used WebSockets to interact with external software',
+				'Designed reactive frontend with TypeScript and Svelte'
 			],
 			tech: [
 				{ slug: 'typescript', label: 'TypeScript' },
@@ -147,9 +153,12 @@ export const cv = {
 			date: 'December 2018 \u2013 August 2022',
 			fullWidth: true,
 			bullets: [
-				'Discord bot using Discord.js with queueing, matchmaking and score algorithms',
-				'Express.js website showing live data, backed by MySQL',
-				'Used in 3,500+ communities after handover'
+				'Used JavaScript libraries such as Discord.js to interact with the Discord API',
+				'Listened to user feedback to develop new features',
+				'Designed algorithms to handle queueing, team and match creation, and score reporting',
+				'Used and handled MySQL database to store player data',
+				'Developed website using Express.js to show live data to users',
+				'Used in over 2000+ communities before handover, currently used in 4500+ communities'
 			],
 			tech: [
 				{ slug: 'javascript', label: 'JavaScript' },
