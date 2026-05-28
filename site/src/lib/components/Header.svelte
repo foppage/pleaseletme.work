@@ -66,6 +66,6 @@
 		font-size: 15px;
 		line-height: 1.5;
 		color: #b0b0b0;
-		max-width: 700px;
+		max-width: 900px;
 	}
 </style>

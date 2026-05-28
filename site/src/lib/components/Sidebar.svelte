@@ -50,8 +50,8 @@
 
 <style>
 	.sidebar {
-		width: 440px;
-		min-width: 440px;
+		width: 480px;
+		min-width: 480px;
 		padding: 20px 24px;
 		background: #1e1e1e;
 		overflow-y: auto;
