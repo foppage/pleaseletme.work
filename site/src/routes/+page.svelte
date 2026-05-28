@@ -44,6 +44,25 @@
 		flex: 1;
 		padding: 20px 28px;
 		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: #444 transparent;
+	}
+
+	.content::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	.content::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	.content::-webkit-scrollbar-thumb {
+		background: #444;
+		border-radius: 3px;
+	}
+
+	.content::-webkit-scrollbar-thumb:hover {
+		background: #666;
 	}
 
 	section {

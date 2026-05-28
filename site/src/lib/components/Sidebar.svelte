@@ -55,6 +55,25 @@
 		padding: 20px 24px;
 		background: #1e1e1e;
 		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: #555 transparent;
+	}
+
+	.sidebar::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	.sidebar::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	.sidebar::-webkit-scrollbar-thumb {
+		background: #555;
+		border-radius: 3px;
+	}
+
+	.sidebar::-webkit-scrollbar-thumb:hover {
+		background: #777;
 	}
 
 	section {
