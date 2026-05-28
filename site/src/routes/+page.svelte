@@ -11,15 +11,15 @@
 
 		<div class="contact">
 			<a href="mailto:june@pleaseletme.work" class="contact-item">
-				<img src={emailSvg} alt="email" width="18" height="18" />
+				<img src={emailSvg} alt="email" width="20" height="20" />
 				june@pleaseletme.work
 			</a>
 			<a href="https://github.com/foppage" class="contact-item">
-				<img src={githubSvg} alt="github" width="18" height="18" />
+				<img src={githubSvg} alt="github" width="20" height="20" />
 				@foppage
 			</a>
 			<a href="tel:+447835722998" class="contact-item">
-				<img src={phoneSvg} alt="phone" width="18" height="18" />
+				<img src={phoneSvg} alt="phone" width="20" height="20" />
 				+44 7835 722998
 			</a>
 		</div>
@@ -140,7 +140,7 @@
 
 				<h3>
 					<a href="https://lightningarena.com" target="_blank" rel="noreferrer">
-						Lightning Arena <img src={linkSvg} alt="" width="12" height="12" class="inline-link" />
+						Lightning Arena <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
 					</a>
 				</h3>
 				<p class="meta">May 2024 &ndash; Current</p>
@@ -157,7 +157,7 @@
 
 				<h3>
 					<a href="https://github.com/foppage/goto" target="_blank" rel="noreferrer">
-						Goto <img src={linkSvg} alt="" width="12" height="12" class="inline-link" />
+						Goto <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
 					</a>
 				</h3>
 				<ul>
@@ -170,7 +170,7 @@
 
 				<h3>
 					<a href="https://github.com/foppage/services" target="_blank" rel="noreferrer">
-						Homelab <img src={linkSvg} alt="" width="12" height="12" class="inline-link" />
+						Homelab <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
 					</a>
 				</h3>
 				<ul>
@@ -186,7 +186,7 @@
 
 				<h3>
 					<a href="https://github.com/foppage/macro" target="_blank" rel="noreferrer">
-						Macro <img src={linkSvg} alt="" width="12" height="12" class="inline-link" />
+						Macro <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
 					</a>
 				</h3>
 				<ul>
@@ -216,35 +216,35 @@
 
 <style>
 	.cv {
-		max-width: 900px;
+		max-width: 1100px;
 		margin: 0 auto;
-		padding: 32px 24px;
+		padding: 48px 32px;
 	}
 
 	header {
-		margin-bottom: 24px;
+		margin-bottom: 40px;
 	}
 
 	h1 {
 		color: #f472b6;
-		font-size: 28px;
+		font-size: 40px;
 		font-weight: 700;
-		margin-bottom: 10px;
-		letter-spacing: -0.02em;
+		margin-bottom: 12px;
+		letter-spacing: -0.03em;
 	}
 
 	.contact {
 		display: flex;
-		gap: 20px;
+		gap: 28px;
 		flex-wrap: wrap;
-		margin-bottom: 12px;
+		margin-bottom: 16px;
 	}
 
 	.contact-item {
 		display: inline-flex;
 		align-items: center;
-		gap: 5px;
-		font-size: 11px;
+		gap: 6px;
+		font-size: 14px;
 	}
 
 	.contact-item img {
@@ -253,15 +253,16 @@
 	}
 
 	.summary {
-		font-size: 12px;
-		line-height: 1.5;
+		font-size: 15px;
+		line-height: 1.6;
 		color: #b0b0b0;
+		max-width: 800px;
 	}
 
 	.columns {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 16px;
+		gap: 32px;
 	}
 
 	.left {
@@ -270,12 +271,12 @@
 
 	.card {
 		background: #252525;
-		border-radius: 6px;
-		padding: 16px;
+		border-radius: 8px;
+		padding: 24px;
 	}
 
 	section {
-		margin-bottom: 20px;
+		margin-bottom: 32px;
 	}
 
 	section:last-child {
@@ -284,37 +285,37 @@
 
 	h2 {
 		color: #f472b6;
-		font-size: 15px;
+		font-size: 20px;
 		font-weight: 600;
-		margin-bottom: 10px;
-		border-bottom: 1.5px solid #f472b6;
-		padding-bottom: 4px;
+		margin-bottom: 14px;
+		border-bottom: 2px solid #f472b6;
+		padding-bottom: 6px;
 	}
 
 	h3 {
 		color: #d4d4d4;
-		font-size: 12px;
+		font-size: 16px;
 		font-weight: 600;
-		margin-top: 12px;
-		margin-bottom: 3px;
+		margin-top: 20px;
+		margin-bottom: 4px;
 	}
 
 	.meta {
-		font-size: 10px;
+		font-size: 13px;
 		color: #888;
-		margin-bottom: 5px;
+		margin-bottom: 6px;
 	}
 
 	.sub {
-		font-size: 11px;
+		font-size: 14px;
 		color: #b0b0b0;
-		margin-bottom: 5px;
+		margin-bottom: 6px;
 	}
 
 	p {
-		font-size: 11px;
-		line-height: 1.5;
-		margin-bottom: 8px;
+		font-size: 14px;
+		line-height: 1.6;
+		margin-bottom: 10px;
 	}
 
 	ul {
@@ -323,9 +324,9 @@
 	}
 
 	li {
-		font-size: 11px;
-		line-height: 1.6;
-		padding-left: 12px;
+		font-size: 14px;
+		line-height: 1.65;
+		padding-left: 16px;
 		position: relative;
 		color: #b0b0b0;
 	}
@@ -333,31 +334,31 @@
 	li::before {
 		content: '-';
 		position: absolute;
-		left: 2px;
+		left: 4px;
 		color: #666;
 	}
 
 	.modules-label {
-		font-size: 11px;
-		margin-top: 6px;
-		margin-bottom: 3px;
+		font-size: 14px;
+		margin-top: 8px;
+		margin-bottom: 4px;
 		color: #d4d4d4;
 	}
 
 	.modules {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 0 10px;
+		gap: 0 16px;
 	}
 
 	.skill-columns {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 0 10px;
+		gap: 0 16px;
 	}
 
 	.skill-columns li {
-		font-size: 10px;
+		font-size: 13px;
 	}
 
 	.inline-link {
@@ -376,7 +377,7 @@
 		text-decoration: underline;
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 800px) {
 		.columns {
 			grid-template-columns: 1fr;
 		}

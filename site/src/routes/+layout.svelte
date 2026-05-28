@@ -27,7 +27,7 @@
 		background: #1a1a1a;
 		color: #d4d4d4;
 		font-family: 'Inter', sans-serif;
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 1.5;
 		min-height: 100vh;
 	}
