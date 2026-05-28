@@ -1,22 +1,30 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.jpg';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap"
-		rel="stylesheet"
-	/>
+	<title>June | pleaseletme.work</title>
 </svelte:head>
 
 {@render children()}
 
 <style>
+	@font-face {
+		font-family: 'Inter';
+		src: url('/fonts/Inter-Regular.woff2') format('woff2');
+		font-weight: 400;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Inter';
+		src: url('/fonts/Inter-SemiBold.woff2') format('woff2');
+		font-weight: 600;
+		font-display: swap;
+	}
+
 	:global(*) {
 		margin: 0;
 		padding: 0;
@@ -31,6 +39,8 @@
 		line-height: 1.5;
 		height: 100vh;
 		overflow: hidden;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 
 	:global(a) {
@@ -46,6 +56,8 @@
 		:global(body) {
 			height: auto;
 			overflow: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
 		}
 	}
 </style>
