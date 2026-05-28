@@ -23,7 +23,7 @@ export const cv = {
 		},
 		{ icon: 'github' as const, label: '@foppage', href: 'https://github.com/foppage' }
 	],
-	summary: `I am a recent graduate from Cardiff University, having achieved a Distinction in MSc in Advanced Computer Science. I have a passion for software development, infrastructure, DevOps and cyber security, and would like to develop my career in these fields.`,
+	summary: `I am a recent graduate from Cardiff University, having achieved a Distinction in MSc in Advanced Computer Science. I have a passion for software development, infrastructure and cyber security, and would like to develop my career in these fields.`,
 	education: [
 		{
 			kind: 'degree' as const,
