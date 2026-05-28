@@ -37,14 +37,15 @@
 				<h2>Education</h2>
 
 				<h3>MSc Advanced Computer Science (Distinction)</h3>
-				<p class="meta">Cardiff University &mdash; September 2024 &ndash; October 2025</p>
+				<p class="meta">Cardiff University</p>
+				<p class="meta">September 2024 &ndash; October 2025</p>
 				<p class="sub">
 					Dissertation on data engineering and machine learning using TypeScript, Python and
 					TensorFlow. (73%)
 				</p>
 
 				<p class="label">Modules studied:</p>
-				<ul class="modules">
+				<ul>
 					<li>Distributed and Cloud Computing</li>
 					<li>Penetration Testing and Malware Analysis</li>
 					<li>Cyber Security and Risk Management</li>
@@ -54,20 +55,19 @@
 				</ul>
 
 				<h3>BSc Computer Science</h3>
-				<p class="meta">University of Birmingham &mdash; September 2020 &ndash; July 2023</p>
+				<p class="meta">University of Birmingham</p>
+				<p class="meta">September 2020 &ndash; July 2023</p>
 
 				<h3>A-Levels</h3>
-				<p class="meta"></p>
 				<p>Maths (A*), Further Maths (A), Physics (A), Computing (A)</p>
 
 				<h3>GCSEs</h3>
-				<p class="meta"></p>
 				<p>11 GCSEs at grades 6-9 inc. Maths (9), CS (9), Music (9)</p>
 			</section>
 
 			<section>
 				<h2>Additional information</h2>
-				<ul class="add-info">
+				<ul>
 					<li>Holder of a full UK driving licence</li>
 					<li>Grade 6 Guitar</li>
 					<li>Grade 5 Music Theory</li>
@@ -402,28 +402,6 @@
 		position: absolute;
 		left: 3px;
 		color: #666;
-	}
-
-	.modules {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 0 12px;
-		margin-bottom: 4px;
-	}
-
-	.modules li {
-		font-size: 14px;
-		line-height: 1.6;
-	}
-
-	.add-info {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 0 10px;
-	}
-
-	.add-info li {
-		font-size: 15px;
 	}
 
 	.exp-card {
