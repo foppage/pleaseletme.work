@@ -1,27 +1,23 @@
 <script lang="ts">
 	import emailSvg from '$lib/assets/email.svg';
 	import githubSvg from '$lib/assets/github.svg';
-	import phoneSvg from '$lib/assets/phone.svg';
 	import linkSvg from '$lib/assets/link.svg';
 </script>
 
 <div class="layout">
 	<header class="top-header">
 		<div class="name-row">
-			<h1>June </h1>
+			<h1>June</h1>
 			<div class="contact">
-				<a href="mailto:june@pleaseletme.work" class="contact-item">
-					<img src={emailSvg} alt="" width="18" height="18" />
-					june@pleaseletme.work
+			<a href="mailto:june@pleaseletme.work" class="contact-item">
+				<img src={emailSvg} alt="" width="18" height="18" />
+				june@pleaseletme.work
 				</a>
 				<a href="https://github.com/foppage" class="contact-item">
 					<img src={githubSvg} alt="" width="18" height="18" />
 					@foppage
 				</a>
-				<a href="tel:+447835722998" class="contact-item">
-					<img src={phoneSvg} alt="" width="18" height="18" />
-					+44 7835 722998
-				</a>
+
 			</div>
 		</div>
 		<p class="summary">
@@ -46,12 +42,12 @@
 
 				<p class="label">Modules studied:</p>
 				<ul>
-					<li>Distributed and Cloud Computing</li>
-					<li>Penetration Testing and Malware Analysis</li>
-					<li>Cyber Security and Risk Management</li>
-					<li>Developing Secure Systems and Applications</li>
-					<li>Applications of Machine Learning</li>
-					<li>Programming Paradigms</li>
+					<li>Distributed and Cloud Computing (85%)</li>
+					<li>Penetration Testing and Malware Analysis (84%)</li>
+					<li>Cyber Security and Risk Management (71%)</li>
+					<li>Developing Secure Systems and Applications (75%)</li>
+					<li>Applications of Machine Learning (67%)</li>
+					<li>Programming Paradigms (61%)</li>
 				</ul>
 
 				<h3>BSc Computer Science</h3>
@@ -59,10 +55,15 @@
 				<p class="meta">September 2020 &ndash; July 2023</p>
 
 				<h3>A-Levels</h3>
-				<p>Maths (A*), Further Maths (A), Physics (A), Computing (A)</p>
+				<ul>
+					<li>Maths (A*)</li>
+					<li>Further Maths (A)</li>
+					<li>Physics (A)</li>
+					<li>Computing (A)</li>
+				</ul>
 
 				<h3>GCSEs</h3>
-				<p>11 GCSEs at grades 6-9 inc. Maths (9), CS (9), Music (9)</p>
+				<p class="sub">11 GCSEs incl. Maths (9), Music (9), Computer Science (9), Physics (9), English Literature (8), English Language (6)</p>
 			</section>
 
 			<section>
@@ -103,8 +104,8 @@
 								Lightning Arena <img
 									src={linkSvg}
 									alt=""
-									width="12"
-									height="12"
+									width="18"
+									height="18"
 									class="inline-link"
 								/>
 							</a>
@@ -140,7 +141,7 @@
 					<div class="project-card">
 						<h3>
 							<a href="https://github.com/foppage/goto" target="_blank" rel="noreferrer">
-								Goto <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
+								Goto <img src={githubSvg} alt="" width="18" height="18" class="inline-link" />
 							</a>
 						</h3>
 						<ul>
@@ -175,7 +176,7 @@
 					<div class="project-card">
 						<h3>
 							<a href="https://github.com/foppage/services" target="_blank" rel="noreferrer">
-								Homelab <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
+								Homelab <img src={githubSvg} alt="" width="18" height="18" class="inline-link" />
 							</a>
 						</h3>
 						<ul>
@@ -206,7 +207,7 @@
 					<div class="project-card">
 						<h3>
 							<a href="https://github.com/foppage/macro" target="_blank" rel="noreferrer">
-								Macro <img src={linkSvg} alt="" width="14" height="14" class="inline-link" />
+								Macro <img src={githubSvg} alt="" width="18" height="18" class="inline-link" />
 							</a>
 						</h3>
 						<ul>
@@ -316,8 +317,8 @@
 	}
 
 	.sidebar {
-		width: 340px;
-		min-width: 340px;
+		width: 440px;
+		min-width: 440px;
 		padding: 20px 24px;
 		background: #1e1e1e;
 		overflow-y: auto;
@@ -449,8 +450,8 @@
 
 
 	.project-card li {
-		font-size: 14px;
-		line-height: 1.5;
+		font-size: 15px;
+		line-height: 1.55;
 		padding-left: 12px;
 	}
 
