@@ -117,6 +117,24 @@
 							<li>Designed bespoke matchmaking algorithms</li>
 							<li>Monorepo with GitHub Actions CI/CD and Terraform hosting</li>
 						</ul>
+						<div class="tech-icons">
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/typescript/f472b6" alt="" height="18" />
+								<span class="tech-label">TypeScript</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/docker/f472b6" alt="" height="18" />
+								<span class="tech-label">Docker</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/terraform/f472b6" alt="" height="18" />
+								<span class="tech-label">Terraform</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/githubactions/f472b6" alt="" height="18" />
+								<span class="tech-label">GitHub Actions</span>
+							</span>
+						</div>
 					</div>
 
 					<div class="project-card">
@@ -130,6 +148,28 @@
 							<li>SPA frontend with Vite + React, multi-stage Docker build</li>
 							<li>CI/CD pipeline building and deploying with Docker Compose</li>
 						</ul>
+						<div class="tech-icons">
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/typescript/f472b6" alt="" height="18" />
+								<span class="tech-label">TypeScript</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/go/f472b6" alt="" height="18" />
+								<span class="tech-label">Go</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/sqlite/f472b6" alt="" height="18" />
+								<span class="tech-label">SQLite</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/react/f472b6" alt="" height="18" />
+								<span class="tech-label">React</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/docker/f472b6" alt="" height="18" />
+								<span class="tech-label">Docker</span>
+							</span>
+						</div>
 					</div>
 
 					<div class="project-card">
@@ -143,6 +183,24 @@
 							<li>Terraform for infrastructure, Docker services via Cloudflare</li>
 							<li>CI/CD pipeline to apply Terraform config on closed PRs</li>
 						</ul>
+						<div class="tech-icons">
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/proxmox/f472b6" alt="" height="18" />
+								<span class="tech-label">Proxmox</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/terraform/f472b6" alt="" height="18" />
+								<span class="tech-label">Terraform</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/docker/f472b6" alt="" height="18" />
+								<span class="tech-label">Docker</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/cloudflare/f472b6" alt="" height="18" />
+								<span class="tech-label">Cloudflare</span>
+							</span>
+						</div>
 					</div>
 
 					<div class="project-card">
@@ -156,6 +214,16 @@
 							<li>WebSockets to interface with external software</li>
 							<li>Reactive frontend with TypeScript and Svelte</li>
 						</ul>
+						<div class="tech-icons">
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/typescript/f472b6" alt="" height="18" />
+								<span class="tech-label">TypeScript</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/svelte/f472b6" alt="" height="18" />
+								<span class="tech-label">Svelte</span>
+							</span>
+						</div>
 					</div>
 
 					<div class="project-card full-width">
@@ -166,6 +234,20 @@
 							<li>Express.js website showing live data, backed by MySQL</li>
 							<li>Used in 3,500+ communities after handover</li>
 						</ul>
+						<div class="tech-icons">
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/javascript/f472b6" alt="" height="18" />
+								<span class="tech-label">JavaScript</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/mysql/f472b6" alt="" height="18" />
+								<span class="tech-label">MySQL</span>
+							</span>
+							<span class="tech-icon">
+								<img src="https://cdn.simpleicons.org/express/f472b6" alt="" height="18" />
+								<span class="tech-label">Express</span>
+							</span>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -368,6 +450,8 @@
 		background: #252525;
 		border-radius: 6px;
 		padding: 12px 14px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.project-card.full-width {
@@ -380,7 +464,11 @@
 
 	.project-card ul {
 		margin-top: 3px;
+		margin-bottom: 12px;
 	}
+
+
+
 
 	.project-card li {
 		font-size: 14px;
@@ -390,6 +478,53 @@
 
 	.project-card li::before {
 		left: 2px;
+	}
+
+	.tech-icons {
+		display: flex;
+		gap: 10px;
+		padding-top: 8px;
+		margin-top: auto;
+		border-top: 1px solid #383838;
+		align-items: center;
+	}
+
+	.tech-icon {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.tech-icon img {
+		opacity: 0.4;
+		transition: opacity 0.2s ease;
+		cursor: default;
+	}
+
+	.tech-icon:hover img {
+		opacity: 1;
+	}
+
+	.tech-label {
+		position: absolute;
+		bottom: calc(100% + 6px);
+		left: 50%;
+		transform: translateX(-50%) translateY(4px);
+		opacity: 0;
+		transition: opacity 0.15s ease, transform 0.15s ease;
+		pointer-events: none;
+		white-space: nowrap;
+		font-size: 12px;
+		color: #d4d4d4;
+		background: #333;
+		padding: 2px 6px;
+		border-radius: 3px;
+		line-height: 1.4;
+	}
+
+	.tech-icon:hover .tech-label {
+		opacity: 1;
+		transform: translateX(-50%) translateY(0);
 	}
 
 	.inline-link {
