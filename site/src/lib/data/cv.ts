@@ -107,7 +107,8 @@ export const cv = {
 				{ slug: 'go', label: 'Go' },
 				{ slug: 'sqlite', label: 'SQLite' },
 				{ slug: 'react', label: 'React' },
-				{ slug: 'docker', label: 'Docker' }
+				{ slug: 'docker', label: 'Docker' },
+				{ slug: 'githubactions', label: 'GitHub Actions' }
 			]
 		},
 		{
@@ -123,7 +124,8 @@ export const cv = {
 				{ slug: 'proxmox', label: 'Proxmox' },
 				{ slug: 'terraform', label: 'Terraform' },
 				{ slug: 'docker', label: 'Docker' },
-				{ slug: 'cloudflare', label: 'Cloudflare' }
+				{ slug: 'cloudflare', label: 'Cloudflare' },
+				{ slug: 'githubactions', label: 'GitHub Actions' }
 			]
 		},
 		{
