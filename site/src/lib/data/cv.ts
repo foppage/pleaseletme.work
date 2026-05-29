@@ -43,7 +43,7 @@ export const cv = {
 		},
 		{
 			kind: 'degree' as const,
-			title: 'BSc Computer Science',
+			title: 'BSc Computer Science (Hons)',
 			school: 'University of Birmingham',
 			date: 'September 2020 \u2013 July 2023'
 		},
