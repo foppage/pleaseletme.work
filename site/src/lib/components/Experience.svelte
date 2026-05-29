@@ -8,6 +8,7 @@
 	<h2>Experience</h2>
 	<div class="card">
 		<h3>{data.experience.title}</h3>
+		<p class="meta">{data.experience.company}</p>
 		<p class="meta">{data.experience.date}</p>
 		<ul>
 			{#each data.experience.bullets as bullet (bullet)}

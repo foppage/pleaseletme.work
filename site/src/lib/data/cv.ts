@@ -66,7 +66,8 @@ export const cv = {
 		'Grade 3 Piano'
 	],
 	experience: {
-		title: 'Research Assistant, Cardiff University',
+		title: 'Research Assistant (Cyber Security)',
+		company: 'Cardiff University',
 		date: 'January 2025 \u2013 March 2025',
 		bullets: [
 			'Attended weekly meetings',
